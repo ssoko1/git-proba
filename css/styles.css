@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+}
+
+.doktor {
+  color: blue;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+}
+
+table {
+  text-align: start;
+  width: 80%;
+  height: 20%;
+  margin-left: 8%;
+  border-collapse: collapse;
+}
+table th {
+  text-align: start;
+}
+
+.prvi {
+  background-color: aquamarine;
+}
+
+.treci {
+  background-color: #6df0e5;
+}
+
+.peti {
+  background-color: #6df0e5;
+}
+
+/*# sourceMappingURL=styles.css.map */

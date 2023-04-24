@@ -1,0 +1,34 @@
+@import "mixins";
+@import "vars";
+body{
+height: 100vh;
+}
+.doktor{
+    color: blue;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+table{
+    text-align: start;
+    width:80%;
+    height: 20%;
+    margin-left:8%;
+    border-collapse: collapse;
+    th{
+        text-align: start;
+    }
+}
+.prvi{
+    background-color: aquamarine;
+
+}
+.treci{
+   @include red;
+    
+}
+.peti{
+    @include red;
+
+}
