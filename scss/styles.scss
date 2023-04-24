@@ -3,7 +3,7 @@
 body{
 height: 100vh;
 }
-.doktor{
+.doktor,.pregled{
     color: blue;
     font-weight: bold;
     font-size: x-large;
@@ -18,17 +18,23 @@ table{
     border-collapse: collapse;
     th{
         text-align: start;
+        border-bottom: 0.1em  blue solid;
+        border-top: 0.1em blue solid;
+    }
+    td{
+        border-bottom: 0.1em blue solid;
+        border-top: 0.1em blue solid;
     }
 }
-.prvi{
+.prvi,.jedan{
     background-color: aquamarine;
 
 }
-.treci{
+.treci,.tri{
    @include red;
     
 }
-.peti{
+.peti,.pet{
     @include red;
 
 }
